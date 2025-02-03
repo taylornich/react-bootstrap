@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 const HomePage = () => {
 
-//Added this so that the NotFound page could be accessed through the Home page for question 1 :)
+//Added this so that the NotFound page for Question 2 could be accessed through the Home page for Question 1 :)
   const navigate = useNavigate();
 
   const goToNotFound = () => {
